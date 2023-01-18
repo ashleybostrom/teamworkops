@@ -40,4 +40,4 @@ Open your HTML file in your browser to view your team page and quickly access yo
 [![Watch the video]]
 
 ## Questions
-If you have any questions, please <a href ="mailto:ashleyjeanbostrom@gmail.com ">Email</a>
+If you have any questions, please <a href ="mailto:ashleyjeanbostrom@gmail.com ">send an email</a>
