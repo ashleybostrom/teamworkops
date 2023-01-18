@@ -18,7 +18,9 @@ This CLI application has been created so that managers can generate a webpage wi
 ### How to start the project:  
 1. **Copy link in code dropdown menu:** Copy the link with SSH key to clone the repo
 1. **Clone:** In GitBash (Windows) or Terminal (Mac), type `git clone < $link >`
-1. **NPM:** Navigate to the 'Develop' folder and type `npm i` to install NPM (Node Package Manager) and all dependencies needed
+1. **NPM:** Navigate to the 'Develop' folder and type `npm init` to install NPM (Node Package Manager)
+1. **Dependencies:** Type `npm i` to install all dependencies needed
+1. **Inquirer:** Type `npm i inquirer@8.2.4` to install npm's inquirer package
 1. **Jest:** To run all tests and make sure they pass, type `npm run test`
 
 ## Usage
