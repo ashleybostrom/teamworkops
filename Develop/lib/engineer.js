@@ -1,5 +1,5 @@
 
-const Employee = require("./employee");
+const Employee = require("./lib/employee");
 
 class Engineer extends Employee{
     
