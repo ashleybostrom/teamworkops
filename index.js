@@ -1,10 +1,10 @@
 // Packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateHTML = require('../src/htmlgen');
-const Manager = require('../lib/Manager');
-const Intern = require('../lib/Intern');
-const Engineer = require('../lib/engineer');
+const generateHTML = require('./src/htmlgen');
+const Manager = require('./lib/Manager');
+const Intern = require('./lib/Intern');
+const Engineer = require('./lib/engineer');
 
 // Class with methods to prompt user for input
 class Prompt{
