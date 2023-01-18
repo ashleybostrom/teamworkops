@@ -1,31 +1,31 @@
 const Employee = require('../lib/employee');
 
 test('creates an employee object', () => {
-    const Employee = new Employee();
+    const employee = new Employee();
 
-    expect(typeof(Employee)).toBe("object");
+    expect(typeof(employee)).toBe("object");
 });
 
 test("get employee's name", () => {
-    const Employee = new Employee('Employee1');
+    const employee = new Employee('Employee1');
 
-    expect(Employee.getName()).toBe('Employee1');
+    expect(employee.getName()).toBe('Employee1');
 });
 
 test("get employee's id", () => {
-    const Employee = new Employee('Employee1', '1');
+    const employee = new Employee('Employee1', '1');
 
-    expect(Employee.getId()).toBe('1');
+    expect(employee.getId()).toBe('1');
 });
 
 test("get employee's email", () => {
-    const Employee = new Employee('Employee1', '1', 'jasmine@magiccarpet.com');
+    const employee = new Employee('Employee1', '1', 'jasmine@magiccarpet.com');
 
-    expect(Employee.getEmail()).toBe('jasmine@magiccarpet.com');
+    expect(employee.getEmail()).toBe('jasmine@magiccarpet.com');
 });
 
 test("getRole() returns employee", () => {
-    const Employee = new Employee('Employee');
+    const employee = new Employee('Employee');
 
-    expect(Employee.getRole()).toBe('Employee');
+    expect(employee.getRole()).toBe('Employee');
 });
