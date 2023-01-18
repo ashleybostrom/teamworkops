@@ -4,7 +4,7 @@ const Intern = require('../lib/intern');
 test('creates an intern object', () => {
     const intern = new Intern('Intern1');
 
-    expect(typeof(intern)).toBe('object');
+    expect(typeof(Intern)).toBe('object');
 });
 
 test("get intern's school", () => {
@@ -16,5 +16,5 @@ test("get intern's school", () => {
 test('getRole() returns intern', () => {
     const intern = new Intern('intern');
 
-    expect(intern.getRole()).toBe('intern');
+    expect(Intern.getRole()).toBe('intern');
 });
