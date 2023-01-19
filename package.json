@@ -3,6 +3,9 @@
     "version": "1.0.0",
     "description": "This CLI application has been created so that managers can generate a webpage with employee information and links to contact or view more",
     "main": "index.js",
+    "directories": {
+        "lib": "lib"
+    },
     "scripts": {
         "test": "jest"
     },
