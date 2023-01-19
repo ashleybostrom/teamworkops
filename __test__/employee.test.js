@@ -1,7 +1,7 @@
 const Employee = require('../lib/employee');
 
 test('creates an employee object', () => {
-    const employee = new Employee();
+    const employee = new Employee('Employee', '', '', 'Employee');
 
     expect(typeof(employee)).toBe("object");
 });
@@ -25,7 +25,7 @@ test("get employee's email", () => {
 });
 
 test("getRole() returns employee", () => {
-    const employee = new Employee('Employee');
+    const employee = new Employee('Employee', '', '', 'Employee');
 
     expect(employee.getRole()).toBe('Employee');
 });
