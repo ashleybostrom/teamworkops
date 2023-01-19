@@ -39,7 +39,7 @@ Open your HTML file in your browser to view your team page and quickly access yo
 
 ## Walk-Through Video
 
-[![Watch the video]]
+[![Watch the video]](https://drive.google.com/file/d/1ZzstGrNy7CoOEP8sd7b3N5zphWcfdEWU/view)
 
 ## Questions
 If you have any questions, please <a href ="mailto:ashleyjeanbostrom@gmail.com ">send an email</a>
