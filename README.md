@@ -41,7 +41,7 @@ Open your HTML file in your browser to view your team page and quickly access yo
 * [![Watch the video]](https://drive.google.com/file/d/1nLcsahtaFIylfh0fV4iY3vml-TDt61za/view)
 
 ## Mock-Up
-* [![Mockup]](./src/teamopshome.png)
+* [![Screenshot]](./src/teamopshome.png)
 
 ## Questions
 If you have any questions, please <a href ="mailto:ashleyjeanbostrom@gmail.com ">send an email</a>
