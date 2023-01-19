@@ -1,5 +1,5 @@
-const Employee = require('../lib/employee');
 const Intern = require('../lib/intern');
+const Employee = require('../lib/employee');
 
 test('creates an intern object', () => {
     const intern = new Intern('Intern1');
@@ -16,5 +16,5 @@ test("get intern's school", () => {
 test('getRole() returns intern', () => {
     const intern = new Intern('Intern');
 
-    expect(Intern.getRole()).toBe('Intern');
+    expect(intern.getRole()).toBe('Intern');
 });
